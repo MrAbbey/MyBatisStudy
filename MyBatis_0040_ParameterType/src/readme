@@ -1,0 +1,2 @@
+parameter指定输入的参数类型,参数类型可以是基本数据类型、hashmap、pojo
+在使用hashmap的时候,在设置key的时候不要和系统中的属性重名

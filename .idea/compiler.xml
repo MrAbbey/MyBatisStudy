@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="MyBatis_0010_CURD" />
+        <module name="MyBatis_0020_DaoDesign" />
+        <module name="MyBatis_0030_Mapper" />
+        <module name="MyBatis_0040_ParameterType" />
+        <module name="MyBatis_0050_ResultMap" />
+        <module name="MyBatis_0060_DynamicSQL" />
+        <module name="MyBatis_0070_OneToOne" />
+        <module name="MyBatis_0080_OneToMany" />
+        <module name="MyBatis_0090_ManyToMany" />
+        <module name="MyBatis_0100_LazyLoad" />
+        <module name="MyBatis_0110_OneLevelCache" />
+        <module name="MyBatis_0120_TwoLevelCache" />
+        <module name="MyBatis_0130_EHCache" />
+        <module name="MyBatis_0140_Generator" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.UserMapper">
+    
+    <sql id="queryUserWhere">
+        <if test="userCustom!=null">
+            <if test="userCustom.sex!=null and userCustom.sex!=''">
+                and sex = #{userCustom.sex}
+            </if>
+            <if test="userCustom.username!=null and userCustom.username!=''">
+                and username like "%${userCustom.username}%"
+            </if>
+        </if>
+    </sql>
+    
+    <select id="findUserList" parameterType="com.mybatis.pojo.QueryUserVO" resultType="com.mybatis.model.User">
+        select * from User
+        <where>
+          <include refid="queryUserWhere" />
+        </where>
+    </select>
+
+    <select id="findUserCount" parameterType="com.mybatis.pojo.QueryUserVO" resultType="int">
+        select count(*) from User
+        <where>
+            <include refid="queryUserWhere" />
+        </where>
+    </select>
+
+    <select id="findUserByIds" parameterType="list" resultType="com.mybatis.model.User">
+        select * from User
+        <where>
+            id IN
+            <foreach collection="array" item="array_item" open="(" separator=","  close=")">
+                #{array_item}
+            </foreach>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,7 @@
+MyBatis二级缓存(Mapper级别的缓存):
+    对多个SqlSession共享同一个Mapper,当不同的SqlSession在查询发出相同的Sql语句的时候，会在缓存中查询数据。
+    当任何一个SqlSession做了(insert,update,delete)操作之后，调用commit方法的时候就会清空缓存。
+    MyBatis下二级缓存是通过namespace来划分的。
+可以在查询操作中通过配置来禁用二级缓存(useCache)和刷新缓存(清空缓存 flushCache)
+二级缓存有一定的局限性：对于实时性要求较高的查询，并不适用。适合于实时性要求不高的场景。
+

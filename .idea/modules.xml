@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatisStudy.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatisStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0010_CURD/MyBatis_0010_CURD.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0010_CURD/MyBatis_0010_CURD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0020_DaoDesign/MyBatis_0020_DaoDesign.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0020_DaoDesign/MyBatis_0020_DaoDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0030_Mapper/MyBatis_0030_Mapper.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0030_Mapper/MyBatis_0030_Mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0040_ParameterType/MyBatis_0040_ParameterType.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0040_ParameterType/MyBatis_0040_ParameterType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0050_ResultMap/MyBatis_0050_ResultMap.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0050_ResultMap/MyBatis_0050_ResultMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0060_DynamicSQL/MyBatis_0060_DynamicSQL.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0060_DynamicSQL/MyBatis_0060_DynamicSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0070_OneToOne/MyBatis_0070_OneToOne.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0070_OneToOne/MyBatis_0070_OneToOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0080_OneToMany/MyBatis_0080_OneToMany.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0080_OneToMany/MyBatis_0080_OneToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0090_ManyToMany/MyBatis_0090_ManyToMany.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0090_ManyToMany/MyBatis_0090_ManyToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0100_LazyLoad/MyBatis_0100_LazyLoad.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0100_LazyLoad/MyBatis_0100_LazyLoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0110_OneLevelCache/MyBatis_0110_OneLevelCache.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0110_OneLevelCache/MyBatis_0110_OneLevelCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0120_TwoLevelCache/MyBatis_0120_TwoLevelCache.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0120_TwoLevelCache/MyBatis_0120_TwoLevelCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0130_EHCache/MyBatis_0130_EHCache.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0130_EHCache/MyBatis_0130_EHCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0140_Generator/MyBatis_0140_Generator.iml" filepath="$PROJECT_DIR$/../../../MyBatisStudy/MyBatis_0140_Generator/MyBatis_0140_Generator.iml" />
+    </modules>
+  </component>
+</project>

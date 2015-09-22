@@ -1,0 +1,6 @@
+这里通过Java program配合XML configuration来运行生成器
+在XML中需要配置如下的信息:
+How to connect to the database (如何连接数据库)
+What objects to generate, and how to generate them (生成什么对象，怎样生成)
+What tables should be used for object generation (指定需要生成对象的表)
+在指定targetProject属性的时候,所指定的目录是必须存在的，如果不存在则无法自动生成。
